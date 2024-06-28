@@ -8,8 +8,8 @@ function Job_preview() {
   return (
     <div className="flex">
       <div className="left pl-[120px]  border w- ">
-        <div className="flex items-center gap-4 font-sans text-[20px] text-[#888888] font-medium border-y-2  border-[#FFFFF] h-[47px]  ">
-          <h1>Job preview</h1>
+        <div className="flex items-center gap-4 font-sans text-[20px] text-[#888888] font-medium border-y-2  border-[#FFFFF] h-[47px] ">
+          <h1 className="text-red-600 border-b-2 border-red-500">Job preview</h1>
           <h1>Applicants</h1>
           <h1>Match</h1>
           <h1>Messages</h1>
